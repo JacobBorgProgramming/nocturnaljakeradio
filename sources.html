@@ -18,10 +18,7 @@
     <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/libertywarccoonyellow.jpg">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="assets/css/Kepolu.css">
-    <link rel="stylesheet" href="assets/css/Open%20Sans.css">
-    <link rel="stylesheet" href="assets/css/Quicksand.css">
-    <link rel="stylesheet" href="assets/css/Ubuntu.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
 <body style="font-family: 'Open Sans', sans-serif;">
@@ -29,9 +26,9 @@
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html"><span><img src="assets/img/njrlogo.png" width="100px"></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-3" style="font-family: Kepolu;">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link active" href="sources.html">Sources</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
-                </ul><a class="btn btn-outline-dark" role="button" href="https://podcasters.spotify.com/pod/show/nocturnaljakeradio" target="_blank" style="margin-right: 5px;">Listen</a><button class="btn btn-outline-dark" type="button" data-bs-target="#modal-1" data-bs-toggle="modal">Follow</button>
+                    <li class="nav-item"><a class="nav-link active" data-bss-hover-animate="rubberBand" href="sources.html">Sources</a></li>
+                    <li class="nav-item"><a class="nav-link active" data-bss-hover-animate="rubberBand" href="contact.html">Contact</a></li>
+                </ul><a class="btn btn-outline-dark disabled" role="button" href="https://podcasters.spotify.com/pod/show/nocturnaljakeradio" target="_blank" style="margin-right: 5px;">Listen</a><button class="btn btn-outline-dark" type="button" data-bs-target="#modal-1" data-bs-toggle="modal">Follow</button>
             </div>
         </div>
     </nav>
@@ -41,7 +38,7 @@
                 <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
                     <div>
                         <h2 class="fw-bold mb-3" style="font-family: Kepolu;">Nocturnal Jake Radio</h2>
-                        <p class="mb-4">My best memes and other shenanigans occur late in the evening, so why should my podcast be any different?</p><a class="btn btn-outline-light fs-5 me-2 py-2 px-4" role="button" style="font-family: Kepolu;" href="https://podcasters.spotify.com/pod/show/nocturnaljakeradio" target="_blank">Listen</a>
+                        <p class="mb-4">My best memes and other shenanigans occur late in the evening, so why should my podcast be any different?</p><a class="btn btn-outline-light disabled fs-5 me-2 py-2 px-4" role="button" style="font-family: Kepolu;" href="https://podcasters.spotify.com/pod/show/nocturnaljakeradio" target="_blank">Listen</a>
                     </div>
                 </div>
             </div>
@@ -50,7 +47,7 @@
     <div class="container py-4 py-xl-5">
         <div class="row gy-4 gy-md-0">
             <div class="col-md-6">
-                <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;" src="assets/img/racoons/lukas-stoermer-C0hX1cRQPOY-unsplash.jpg"></div>
+                <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;" src="assets/img/racoons/ilse-orsel-tPS5AkQy6zo-unsplash.jpg"></div>
             </div>
             <div class="col-md-6 d-md-flex align-items-md-center">
                 <div style="max-width: 350px;">
@@ -108,7 +105,7 @@
                     </div>
                     <div class="modal-body">
                         <p>Follow Jake and the show on Twitter!</p>
-                        <div class="btn-group" role="group"><button class="btn btn-outline-dark" type="button">@jborg_arts</button><button class="btn btn-outline-dark" type="button">@nocjakeradio</button></div>
+                        <div class="btn-group" role="group"><a class="btn btn-outline-dark" role="button" href="https://twitter.com/jborg_arts" target="_blank">@jborg_arts</a><a class="btn btn-outline-dark" role="button" href="https://twitter.com/nocjakeradio" target="_blank">@nocjakeradio</a></div>
                     </div>
                     <div class="modal-footer"><button class="btn btn-outline-dark" type="button" data-bs-dismiss="modal">Close</button></div>
                 </div>
@@ -116,6 +113,7 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
